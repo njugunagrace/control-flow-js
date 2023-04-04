@@ -7,7 +7,7 @@ for(let x= 0; x< arr.length;x++){
   
 }
 let arr = ["Grace","Wambui","Kenya","Uganda"];
-console.log(myStrings(arr));
+myStrings(arr);
 
 // a function that accepts an array of numbers and uses the forEach() method to console.log each number multiplied by 2.
 
@@ -17,7 +17,7 @@ function numbers(nums){
 
 }
 let nums = [23,4,5,24,17];
-console.log(numbers(nums));
+numbers(nums);
 
 
 // Write a function that takes in an array of numbers and consoles the first four items multiplied by 8 and the last two added by 5. Console the array with the new values
@@ -28,13 +28,14 @@ function newArray(arr) {
       if (i < 4) {
         empty.push(arr[i] * 8);
       } else if (i >= arr.length - 2) {
-        empty.push(arr[i] + 5);}
+        empty.push(arr[i] + 5);
+      }
  
     }
     console.log(empty);
   }
  
-  console.log(newArray(numerics));
+newArray(numerics);
 
 
 
@@ -50,7 +51,7 @@ while(x <arr.length){
     x++;
 }
 }
-console.log(numbs(arrNum))
+numbs(arrNum);
 
 
 
@@ -59,12 +60,12 @@ console.log(numbs(arrNum))
 let fruits= ['apple','plum','banana','strawberries','kiwi'];
 function myArray(fruits){
 for(let i = 0; i<fruits.length;i++){
-  if(i===1){
+  if(i===2){
       continue
   }
-  console.log({ "continue":i})
+  console.log({ "continue":i});
 
 }
 }
-myArray(fruits)
+myArray(fruits);
 
